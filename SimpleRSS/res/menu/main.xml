@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    
+    <item android:id="@+id/menuRefresh"
+          android:title=""
+          android:showAsAction="always" />
+    
+    <item
+        android:id="@+id/action_pref"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="always"
+        android:title="@string/action_prefs"/>
+    
+    <item
+        android:id="@+id/action_list_url"
+        android:icon="@drawable/ic_action_noimage"
+        android:showAsAction="always"
+        android:title="@string/action_list_url"/>
+    
+    <item
+        android:id="@+id/action_set_url"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="@string/action_set_url"/>
+    
+     <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:showAsAction="always"
+        android:title="@string/action_refresh"/>
+
+</menu>
